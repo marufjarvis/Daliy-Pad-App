@@ -1,0 +1,38 @@
+name: daily_pad
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  url_launcher: ^6.0.7
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  eva_icons_flutter: ^3.0.0
+  flutter_cupertino_date_picker: ^1.0.26+2
+  fluttertoast: ^8.0.7
+  google_fonts: ^2.1.0
+  image_cropper: ^1.4.1
+  image_picker: ^0.8.0+4
+  intl: ^0.17.0
+  page_transition: ^2.0.2
+  path_provider: ^2.0.2
+  sqflite: ^2.0.0+3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/logo/
+    - assets/strickers/
